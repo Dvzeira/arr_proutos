@@ -1,0 +1,8 @@
+lista_produtos = ['máscaras faciais', 'batons', 'esmaltes', 'perfumes', 'loções', 'xampus', 'sabonetes', 'delineadores']
+
+def imprimir_produtos(produtos):
+    for produto in produtos:
+        print(f'Temos {produto} à venda!')
+
+# Chamando a função para imprimir os produtos
+imprimir_produtos(lista_produtos)
